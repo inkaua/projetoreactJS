@@ -2,14 +2,14 @@
 
 .logo {
   position: absolute;
-  top: 20px;
-  left: 20px;
-  font-size: 24px;
-  color: white;
+  top: 50px;
+  left: 1px;
+  font-size: 50px;
+  color: rgb(3, 3, 3);
 }
 
 nav {
-  background-color: #333;
+  background-color: rgba(172, 11, 11, 0.507); /* Fundo opaco com 80% de opacidade */
   padding: 10px;
   position: relative; /* Garante que o posicionamento absoluto na .logo seja relativo ao nav */
 }

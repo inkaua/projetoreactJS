@@ -18,16 +18,24 @@
   
   .Secao {
     width: 1000px; /* largura do retângulo */
-    height: 200px; /* altura do retângulo */
+    height: 300px; /* altura do retângulo */
     padding: 20px;
     background-color: rgba(32, 32, 32, 0.671); /* cor de fundo com 50% de opacidade */
-    border-radius: 20px; /* bordas arredondadas */
+    border-radius: 50px; /* bordas arredondadas */
     box-shadow: 20px 20px 10px rgba(7, 7, 7, 0.2); /* sombra com deslocamento X 20px, deslocamento Y 20px, desfoque 10px, e cor preta com transparência 20% */
     margin: 0 auto; /* centraliza horizontalmente */
 }
+.Secao2 {
+  width: 300px; /* largura do retângulo */
+  height: 150px; /* altura do retângulo */
+  padding: 20px;
+  background-color: rgba(32, 32, 32, 0.671); /* cor de fundo com 50% de opacidade */
+  border-radius: 50px; /* bordas arredondadas */
+  box-shadow: 20px 20px 10px rgba(7, 7, 7, 0.2); /* sombra com deslocamento X 20px, deslocamento Y 20px, desfoque 10px, e cor preta com transparência 20% */
+  margin: 0 auto; /* centraliza horizontalmente */
+}
 
-    
-  .Footer {
+    .Footer {
     background-color: #ffffff;
     padding: 10px;
   }
