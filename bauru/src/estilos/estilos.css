@@ -1,0 +1,22 @@
+.projeto {
+    text-align: center;
+    background-color: lightgreen;
+    padding: 20px;
+}
+
+.cabeçalho {
+    background-color: #ffffff;
+    padding: 10px;
+}
+
+.seçao {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.rodape {
+    background-color: #ffffff;
+    padding: 10px;
+    }
+    

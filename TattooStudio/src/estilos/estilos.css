@@ -1,0 +1,57 @@
+.Fundo {
+    text-align: center;
+    background-color: #616161;
+    padding: 20px;
+  }
+  
+  .header {
+    background-color: #ffffff;
+    padding: 10px;
+  }
+  
+  .Secao{
+    background-color: #e7d912;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .Footer {
+    background-color: #ffffff;
+    padding: 10px;
+  }
+  .Fundo {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    min-height: 100vh;
+    padding: 20px;
+  }
+
+  .Navegacao {
+    background-color: #f8f8f8;
+    padding: 1em;
+    text-align: center;
+  }
+
+  .Navegacao ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  .Navegacao ul li {
+    margin: 0 1em;
+  }
+
+  .Navegacao ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+  }
+
+  .Nav ul li a:hover {
+    text-decoration: underline;
+  }

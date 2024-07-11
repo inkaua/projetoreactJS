@@ -1,0 +1,11 @@
+.sem_texto {
+  font-size: 1.75rem;
+  font-weight: bolder;
+  margin-bottom: 1rem;
+}
+
+.sem_link {
+  color: var(--cor-primaria);
+  font-size: 1.75rem;
+  font-weight: bolder;
+}
