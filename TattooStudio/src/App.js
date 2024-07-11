@@ -15,7 +15,7 @@ function App() {
 
       <Navegacao/>
 
-      <h2>INK.AUA</h2>
+      <h2>Estúdio de Tatuagem Ink.aua</h2>
       <Switch>      
        <Route exact path='/'>
             <Sobre/>
@@ -35,7 +35,7 @@ function App() {
           </Switch>
 
           <rodape className="Rodape">
-            <p> Para mais informações sobre Bauru, visite o <a href="http://www.bauru.sp.gov.br">site oficial da prefeitura.</a></p>
+            <p> Para mais informações, visite o <a href="@ink.aua">instagram.</a></p>
           </rodape>
         </div>
       </Router>

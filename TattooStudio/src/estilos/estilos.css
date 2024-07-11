@@ -1,20 +1,32 @@
 .Fundo {
-    text-align: center;
-    background-color: #616161;
-    padding: 20px;
+  text-align: center;
+  background-color: #3b3b3b;
+  padding:20px;
+    /* imagem de fundo */
+  background-image: url('C:\Users\kaua.cecilio\Documents\Projetos ReactJS\TattooStudio\src\assets\erro.jpg'); /* substitua pelo caminho da sua imagem */
+  background-size: cover; /* ajusta o tamanho da imagem para cobrir todo o elemento */
+  background-position: center; /* posiciona a imagem no centro do elemento */
+  background-repeat: no-repeat; /* evita que a imagem se repita */
+  color: rgb(248, 246, 246); /* cor do texto sobre a imagem */
   }
+
   
   .header {
     background-color: #ffffff;
     padding: 10px;
   }
   
-  .Secao{
-    background-color: #e7d912;
+  .Secao {
+    width: 1000px; /* largura do retângulo */
+    height: 200px; /* altura do retângulo */
     padding: 20px;
-    margin-bottom: 20px;
-  }
-  
+    background-color: rgba(32, 32, 32, 0.671); /* cor de fundo com 50% de opacidade */
+    border-radius: 20px; /* bordas arredondadas */
+    box-shadow: 20px 20px 10px rgba(7, 7, 7, 0.2); /* sombra com deslocamento X 20px, deslocamento Y 20px, desfoque 10px, e cor preta com transparência 20% */
+    margin: 0 auto; /* centraliza horizontalmente */
+}
+
+    
   .Footer {
     background-color: #ffffff;
     padding: 10px;
@@ -23,16 +35,19 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    background-color: #ffffff;
     position: relative;
     min-height: 100vh;
     padding: 20px;
   }
 
   .Navegacao {
-    background-color: #f8f8f8;
-    padding: 1em;
+    background-color: rgba(255, 255, 255, 0.473); /* cor de fundo com 50% de opacidade */
+    padding: 3em;
     text-align: center;
-  }
+    /* borda retangular */
+    }
+
 
   .Navegacao ul {
     list-style-type: none;
@@ -43,12 +58,12 @@
   }
 
   .Navegacao ul li {
-    margin: 0 1em;
+    margin: 0 2em;
   }
 
   .Navegacao ul li a {
     text-decoration: none;
-    color: #000;
+    color: #9b1313;
     font-weight: bold;
   }
 
