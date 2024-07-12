@@ -35,7 +35,7 @@ function App() {
           </Switch>
 
           <rodape className="Rodape">
-            <p> Para mais informações, visite o <a href="@ink.aua">instagram.</a></p>
+            <p> Para mais informações, visite o <a href="https://www.instagram.com/ink.aua/">instagram.</a></p>
           </rodape>
         </div>
       </Router>
